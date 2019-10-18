@@ -5,8 +5,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class FirstAuthMethodStrategy extends AbstractAuthStrategy {
-    // constructor(private http: HttpClient, private router: Router) {
-        constructor() {
+        constructor(private http: HttpClient, private router: Router) {
         super();
     }
 

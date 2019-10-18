@@ -5,8 +5,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class SecondAuthMethodStrategy extends AbstractAuthStrategy {
-    // constructor(private http: HttpClient, private router: Router) {
-        constructor() {
+        constructor(private http: HttpClient, private router: Router) {
         super();
     }
     public signIn(email: string, password: string): string {
